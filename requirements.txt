@@ -1,0 +1,38 @@
+# Core Dependencies
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-groq>=0.1.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+
+# Additional Utilities
+requests>=2.31.0
+json5>=0.9.0
+pydantic>=2.0.0
+
+# For CSV processing
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# For data handling
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web scraping (if needed for competitor analysis)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# For enhanced text processing
+tiktoken>=0.5.0
+textstat>=0.7.0
+
+# For PDF generation (optional)
+reportlab>=4.0.0
+fpdf2>=2.5.0
+
+# Development tools (optional)
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.0.0
+google.generativeai
